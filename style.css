@@ -1,22 +1,53 @@
+
+body{
+  background: rgb(22, 22, 36);
+  color: white;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+h1 {
+  text-align: center;
+}
 table {
     font-family: arial, sans-serif;
     border:1px solid black;
     align-content: space-around;
-    /* margin: 50%; */
     width: 5%;
-    /* border-collapse: collapse; */
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
   
-  }
+}
+th{
+  height: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+}
 
-  th, td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    /* padding: 50px; */
-  }
-  th{
-      height: 10px;
-  }
-
-/* table,th,td{
-    border:1px solid black;
+.exam-ass{
+  width: 70%;
+}
+.exam-grade{
+  width: 70%;
+}
+.exam-test{
+  width: 70%;
+}
+.exam-exam{
+  width: 70%;
+}
+.exam-total{
+  width: 70%;
+}
+/* 
+@media screen and (max-width: 789px){
+  .section-title h1{
+    text-align: center;
+  } 
 } */
+
